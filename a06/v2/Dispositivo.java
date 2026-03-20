@@ -1,6 +1,6 @@
 package a06.v2;
 
-public abstract class Dispositivo implements DispositivoConectado {
+public class Dispositivo implements DispositivoConectado {
     protected boolean estado;
     protected String red;
 

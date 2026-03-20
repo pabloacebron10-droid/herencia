@@ -10,7 +10,7 @@ public interface DispositivoConectado {
     String getEstado();
     String getRed();
     default void mostrarInformacion(){
-        System.out.println("Tipo de dispositivo: " + this.getClass().getSimpleName());
+        System.out.println("Tipo de dispositivo: " + this.getClass().getName());
         System.out.println("Estado del dipositivo: " + this.getEstado());
         System.out.println("Conexión: " + this.getRed());
     }
